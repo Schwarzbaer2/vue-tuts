@@ -1,9 +1,5 @@
 const app = vue.createApp({
-  data() {
-    return {
-      courseGoal: 'Mastering Vue',
-    }
-  },
+  data() {},
 })
 
 app.mount('#user-goal')
