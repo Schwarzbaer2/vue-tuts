@@ -7,7 +7,7 @@ Vue.createApp({
   },
   methods: {
     addGoal() {
-      this.goals.push(this.enteredValue)
+      this.goal.push(this.enteredValue)
     },
   },
 }).mount('#app')

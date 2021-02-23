@@ -1,16 +1,5 @@
-Vue.createApp({
-  data() {
-    return {
-      goals: [],
-      enteredValue: '',
-    }
-  },
-  methods: {
-    addGoal() {
-      this.goals.push(this.enteredValue)
-    },
-  },
-}).mount('#app')
+Vue.const app = Vue.createApp({})
+
 
 // const buttonEl = document.querySelector('button')
 // const inputEl = document.querySelector('input')
