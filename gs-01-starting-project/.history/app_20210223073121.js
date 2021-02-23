@@ -9,4 +9,4 @@ function addGoal() {
   listEl.appendChild(listItemEl)
 }
 
-buttonEl.addEventListener('click', addGoal)
+button.addEventListener('click', addGoal)
