@@ -11,13 +11,12 @@ const app = Vue.createApp({
       if (box === 'A') {
         this.boxASelected = !this.boxASelected
       } else if (box === 'B') {
-        this.boxBSelected = !this.boxBSelected
+        this.boxBSelected = !this.boxASelected
       } else if (box === 'C') {
-        this.boxCSelected = !this.boxCSelected
+        this.boxCSelected = !this.boxASelected
       }
     },
   },
 })
 
 app.mount('#styling')
-S
