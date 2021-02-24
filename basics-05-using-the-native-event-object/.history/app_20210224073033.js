@@ -5,27 +5,9 @@ const app = Vue.createApp({
       name: '',
     }
   },
-  watch: {
-    counter(value) {
-      if (value >= 20) {
-        this.counter = 0
-      }
-    },
-  },
-  computed: {
-    fullname() {
-      if (this.name === '') {
-        return ''
-      }
-      return this.name + '' + ' Schwarz'
-    },
-  },
   methods: {
     outputFullname() {
-      if (this.name === '') {
-        return ''
-      }
-      return this.name + '' + ' Schwarz'
+      return this.name + '' + 'Schwarz'
     },
     setName(event, lastName) {
       this.name = event.target.value + ' ' + lastName
