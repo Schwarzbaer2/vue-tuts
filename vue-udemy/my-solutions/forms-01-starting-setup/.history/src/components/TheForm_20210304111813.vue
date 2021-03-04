@@ -148,8 +148,6 @@ export default {
       console.log(this.confirm);
       this.confirm = false;
       console.log('Rating');
-      console.log(this.rating);
-      this.rating = null;
     },
     validateInput() {
       if (this.userName === '') {
